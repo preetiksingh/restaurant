@@ -1,0 +1,49 @@
+#menu-list {
+
+  background-color: $primary-background-color;
+  padding-bottom: 10em;
+
+  h2 {
+    text-align: center;
+    color:#584D4D;
+  }
+
+  p {
+    text-align: center;
+    font-size : 1.5em;
+    color :#ada6a6;
+  }
+
+  ul {
+
+    margin-left: 10em;
+    padding-top :2em;
+    
+    li {
+
+      text-transform: uppercase;
+      text-decoration:none;
+      display: inline;
+      margin-right:4em;
+
+
+      a {
+
+        color:#828281;
+        font-size:1.3em;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+    }
+
+  }
+
+  .menu-row-custom {
+    margin-top :2em;
+  }
+
+}
+

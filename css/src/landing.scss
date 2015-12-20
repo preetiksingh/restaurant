@@ -1,0 +1,35 @@
+#landing {
+
+
+    background-image: url("../img/spices.jpg");
+    background-size: cover;
+    height:90vh;
+    // background-position: top center;
+
+
+  .nav-custom {
+    background-color: transparent;
+    position :relative;
+    color:#fff;
+
+  a {
+    color :#FFF;
+
+    &:hover {
+
+      background-color: transparent;
+    }
+  }
+    ul {
+      position :relative;
+      top:31px;
+    }
+  }
+
+  .logowhite-img {
+    position: relative;
+    left: 160px;
+    bottom: -17px;
+  }
+
+}

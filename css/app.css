@@ -1,0 +1,73 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+header {
+  background-color: #1C1C1C;
+  height: 3.5em; }
+  header .top-header {
+    position: relative; }
+  header .header-content {
+    position: absolute;
+    top: 14px;
+    left: 58px; }
+  header a {
+    text-decoration: none;
+    color: #DFDBD3;
+    font-size: 13px;
+    font-weight: bold; }
+    header a:hover {
+      text-decoration: none;
+      color: #DFDBD3;
+      font-size: 13px;
+      font-weight: bold; }
+  header i {
+    padding-right: 14px;
+    color: #DFDBD3; }
+
+#landing {
+  background-image: url("../img/spices.jpg");
+  background-size: cover;
+  height: 90vh; }
+  #landing .nav-custom {
+    background-color: transparent;
+    position: relative;
+    color: #fff; }
+    #landing .nav-custom a {
+      color: #FFF; }
+      #landing .nav-custom a:hover {
+        background-color: transparent; }
+    #landing .nav-custom ul {
+      position: relative;
+      top: 31px; }
+  #landing .logowhite-img {
+    position: relative;
+    left: 160px;
+    bottom: -17px; }
+
+#menu-list {
+  background-color: #ECECEC;
+  padding-bottom: 10em; }
+  #menu-list h2 {
+    text-align: center;
+    color: #584D4D; }
+  #menu-list p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ada6a6; }
+  #menu-list ul {
+    margin-left: 10em;
+    padding-top: 2em; }
+    #menu-list ul li {
+      text-transform: uppercase;
+      text-decoration: none;
+      display: inline;
+      margin-right: 4em; }
+      #menu-list ul li a {
+        color: #828281;
+        font-size: 1.3em; }
+        #menu-list ul li a:hover {
+          text-decoration: none; }
+  #menu-list .menu-row-custom {
+    margin-top: 2em; }
+
+/*# sourceMappingURL=app.css.map */
