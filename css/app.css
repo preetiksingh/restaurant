@@ -69,5 +69,7 @@ header {
           text-decoration: none; }
   #menu-list .menu-row-custom {
     margin-top: 2em; }
+  #menu-list #menu-ul-custom .mix {
+    display: none; }
 
 /*# sourceMappingURL=app.css.map */

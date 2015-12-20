@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
   <script type="text/javascript" src= "js/jquery.js"></script>
   <script type="text/javascript" src= "js/bootstrap.min.js"></script>
+  <script type="text/javascript" src= "js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src= "js/app.js"></script>
+  
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -60,24 +63,24 @@
       <h2>OVERLAY</h2>
       <p>These fine folks trusted the award winning restaurant</p>
       <nav class="menu-navbar">
-       <ul>
-        <li><a href="#">All</a></li>
-        <li><a href="#">Starters</a></li>
-        <li><a href="#">Breakfast</a></li>
-        <li><a href="#">Lunch</a></li>
-        <li><a href="#">Dinner</a></li>
-        <li><a href="#">Deserts</a></li>
+       <ul id="menu-ul-custom">
+        <li><button class="filter" data-filter=".all">All</button></li>
+        <li><button class="filter" data-filter=".starters">Starters</button></li>
+        <li><button class="filter" data-filter=".breakfast">Breakfast</button></li>
+        <li><a href=" ">Lunch</a></li>
+        <li><a href=" ">Dinner</a></li>
+        <li><a href=" ">Deserts</a></li>
       </ul>
     </nav>
     <div class="row menu-row-custom">
       <div class="col-sm-4">
-        <img src="img/single-food.jpg" alt="" class="img-responsive">
+        <img src="http://placehold.it/300X300" alt="" class=" mix all starters img-responsive">
       </div>
       <div class="col-sm-4">
-        <img src="img/single-food.jpg" alt="" class="img-responsive">
+        <img src="http://placehold.it/300X300" alt="" class=" mix all  breakfast img-responsive">
       </div>
-      <div class="col-sm-4">
-        <img src="img/single-food.jpg" alt="" class="img-responsive">
+       <div class="col-sm-4">
+        <img src="http://placehold.it/300X300" alt="" class=" mix all  lunch img-responsive">
       </div>
 
     </div>
