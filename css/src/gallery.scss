@@ -1,8 +1,8 @@
 #gallery {
 
   padding-bottom:20px;
-  height:50vh;
   background-color: $primary-background-color;
+  position:relative;
 
   .video-container {
     height:500px;
@@ -23,7 +23,7 @@
     padding:30px; 
     color:#FFF; 
     text-shadow:#000 2px 2px;
-    top:81em;
+    top:200px;
     left:24em;
   }
 }
