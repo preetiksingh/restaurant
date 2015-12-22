@@ -25,12 +25,29 @@ header {
     color: #DFDBD3; }
 
 #landing {
-  background-image: url("../img/spices.jpg");
-  background-size: cover;
-  height: 90vh; }
+  position: relative; }
+  #landing .item1 {
+    background-image: url("../img/spices.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: top center; }
+  #landing .item2 {
+    background-image: url("../img/spices1.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: top center; }
+  #landing .item3 {
+    background-image: url("../img/spices2.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: top center; }
+  #landing .item4 {
+    background-image: url("../img/spices3.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: top center; }
   #landing .nav-custom {
     background-color: transparent;
-    position: relative;
     color: #fff; }
     #landing .nav-custom a {
       color: #FFF; }
@@ -43,6 +60,12 @@ header {
     position: relative;
     left: 160px;
     bottom: -17px; }
+  #landing .custom-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9; }
 
 #menu-list {
   background-color: #ECECEC;
@@ -73,7 +96,6 @@ header {
     display: none; }
 
 #gallery {
-  padding-bottom: 20px;
   background-color: #ECECEC;
   position: relative; }
   #gallery .video-container {
@@ -91,10 +113,40 @@ header {
     top: 200px;
     left: 24em; }
 
+#ambience-gallery {
+  background-color: #3A161B;
+  padding-top: 36px;
+  padding-bottom: 10em;
+  margin-top: 0px; }
+  #ambience-gallery .ambience-heading {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 3.5em; }
+  #ambience-gallery .ambience-paragraph {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px; }
+  #ambience-gallery .carousel-inner .item img {
+    display: inline;
+    width: 100%; }
+  #ambience-gallery .carousel-indicators {
+    top: 15em; }
+    #ambience-gallery .carousel-indicators li {
+      background-color: #DFDBD3; }
+    #ambience-gallery .carousel-indicators .active {
+      background-color: purple; }
+
 #reservation {
-  margin-top: 30px;
   background-image: url("../img/reservation.jpg");
   background-size: cover;
-  height: 50vh; }
+  height: 80vh;
+  position: relative; }
+  #reservation .reservation-header {
+    position: absolute;
+    bottom: 13em;
+    left: 33em;
+    color: #fff;
+    font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */

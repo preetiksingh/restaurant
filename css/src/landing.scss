@@ -1,16 +1,46 @@
 #landing {
 
+  position:relative;
 
+
+    .item1 {
     background-image: url("../img/spices.jpg");
     background-size: cover;
     height:90vh;
-    // background-position: top center;
+    background-position: top center;
+
+    }
+
+    .item2 {
+    background-image: url("../img/spices1.jpg");
+    background-size: cover;
+    height:90vh;
+    background-position: top center;
+
+    }
+
+    .item3 {
+    background-image: url("../img/spices2.jpg");
+    background-size: cover;
+    height:90vh;
+    background-position: top center;
+
+    }
+
+    .item4 {
+    background-image: url("../img/spices3.jpg");
+    background-size: cover;
+    height:90vh;
+    background-position: top center;
+
+    }
 
 
   .nav-custom {
     background-color: transparent;
-    position :relative;
+   
     color:#fff;
+
 
   a {
     color :#FFF;
@@ -30,6 +60,14 @@
     position: relative;
     left: 160px;
     bottom: -17px;
+  }
+
+  .custom-nav {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:9;
   }
 
 }
