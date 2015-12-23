@@ -1,0 +1,65 @@
+#restaurant-footer {
+  background-color:#1F2326;
+  color:#fff;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  position:relative;
+
+  
+  .footer-heading {
+    border-bottom: 2px solid #fff; 
+    color:#fff;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+
+  }
+  
+  .address-custom {
+    
+    letter-spacing: 1px;
+    position: absolute;
+    right: 6em;
+    top: 4em;
+ 
+  }
+
+  .map-icon-custom {
+    margin-bottom:1em;
+  }
+
+  .envelope-custom {
+    margin-top:1em;
+  }
+
+  .phone-custom{
+    margin-top:1em;
+  }
+
+  .map-custom {
+
+    height:10em;
+    width:10em;
+  }
+
+  .map-custom1 {
+    border-radius: 50%;
+    height:1px;
+    width:1px;
+  }
+
+  .ul-footer-custom {
+
+    padding-left:0;
+    padding-top:3em;
+
+    li {
+    list-style-type: none;
+    margin-bottom:1em;
+  }
+
+    span {
+      padding-left:5em;
+    }
+}
+
+}

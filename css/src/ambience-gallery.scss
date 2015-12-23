@@ -1,16 +1,18 @@
 #ambience-gallery {
 
-  background-color: #3A161B;
+  background-color: black;
   padding-top: 36px;
   padding-bottom: 10em;
   margin-top: 0px;
+
 
   .ambience-heading {
     
     color: #fff;
     text-align: center;
     letter-spacing: 4px;
-    font-size: 3.5em;
+    font-size: 5em;
+    font-family: 'Amatic SC', cursive;
 
   }
   .ambience-paragraph {
@@ -19,13 +21,10 @@
     padding-bottom:20px;
   }
 
-
-
   .carousel-inner .item img {
     display: inline;
     width:100%;
   }
-
   
   .carousel-indicators {
     top: 15em;
@@ -34,62 +33,8 @@
     {
       background-color: $light-font-color;
     }
-
     .active {
       background-color: purple;
     }
   }
-
-  
-
-//   .item {
-//    i {
-
-//      top: -43px;
-//      left: 237px;
-//      position: relative;
-//      background-color: purple;
-//      padding: 7px 11px;
-//      color: white;
-//      font-size: 18px;
-//    }
-
-//    p {
-//     position: relative;
-//     top: -25px;
-
-//     &:first-of-type{
-//       font-weight:bold;
-//       margin-bottom: 0px;
-//       font-size:16px;
-//       color:#7B7B7B;
-//       margin-left :16px;
-//     }
-
-//     &:last-child {
-//      font-size: 13px;
-//      color:#777;
-//      margin-left :16px; 
-
-//    }
-//  }
-
-// }
-
-// .remove-padding-left {
-//  padding-left:0;
-//  padding-right: 7px;
-// }
-// .remove-padding-right {
-//   padding-right: 0;
-//   padding-left:7px;
-// }
-
-// .team-member-container{
-  
- 
-//   padding-right:3px;
-//   padding-left:4px;
-// }
-
- }
+}

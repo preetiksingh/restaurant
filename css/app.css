@@ -69,10 +69,13 @@ header {
 
 #menu-list {
   background-color: #ECECEC;
-  padding-bottom: 10em; }
+  padding-bottom: 10em;
+  height: 80vh; }
   #menu-list h2 {
     text-align: center;
-    color: #584D4D; }
+    color: #584D4D;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em; }
   #menu-list p {
     text-align: center;
     font-size: 1.5em;
@@ -114,7 +117,7 @@ header {
     left: 24em; }
 
 #ambience-gallery {
-  background-color: #3A161B;
+  background-color: black;
   padding-top: 36px;
   padding-bottom: 10em;
   margin-top: 0px; }
@@ -122,7 +125,8 @@ header {
     color: #fff;
     text-align: center;
     letter-spacing: 4px;
-    font-size: 3.5em; }
+    font-size: 5em;
+    font-family: 'Amatic SC', cursive; }
   #ambience-gallery .ambience-paragraph {
     color: #fff;
     text-align: center;
@@ -140,13 +144,67 @@ header {
 #reservation {
   background-image: url("../img/reservation.jpg");
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   position: relative; }
   #reservation .reservation-header {
     position: absolute;
     bottom: 13em;
     left: 33em;
+    color: #fff; }
+    #reservation .reservation-header h1 {
+      font-weight: bold;
+      font-size: 5em;
+      font-family: 'Amatic SC', cursive; }
+  #reservation .btn-solid {
+    font-weight: bold;
     color: #fff;
-    font-weight: bold; }
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: .5em;
+    margin-top: 1em;
+    background-color: #F2400B;
+    position: absolute;
+    left: 30em;
+    bottom: 70px;
+    padding-right: 2em;
+    padding-left: 2em; }
+
+#restaurant-footer {
+  background-color: #1F2326;
+  color: #fff;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  position: relative; }
+  #restaurant-footer .footer-heading {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding-bottom: 5px;
+    text-transform: uppercase; }
+  #restaurant-footer .address-custom {
+    letter-spacing: 1px;
+    position: absolute;
+    right: 6em;
+    top: 4em; }
+  #restaurant-footer .map-icon-custom {
+    margin-bottom: 1em; }
+  #restaurant-footer .envelope-custom {
+    margin-top: 1em; }
+  #restaurant-footer .phone-custom {
+    margin-top: 1em; }
+  #restaurant-footer .map-custom {
+    height: 10em;
+    width: 10em; }
+  #restaurant-footer .map-custom1 {
+    border-radius: 50%;
+    height: 1px;
+    width: 1px; }
+  #restaurant-footer .ul-footer-custom {
+    padding-left: 0;
+    padding-top: 3em; }
+    #restaurant-footer .ul-footer-custom li {
+      list-style-type: none;
+      margin-bottom: 1em; }
+    #restaurant-footer .ul-footer-custom span {
+      padding-left: 5em; }
 
 /*# sourceMappingURL=app.css.map */
