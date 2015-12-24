@@ -139,7 +139,7 @@ header {
     #ambience-gallery .carousel-indicators li {
       background-color: #DFDBD3; }
     #ambience-gallery .carousel-indicators .active {
-      background-color: purple; }
+      background-color: #F2400B; }
 
 #reservation {
   background-image: url("../img/reservation.jpg");
@@ -148,7 +148,7 @@ header {
   position: relative; }
   #reservation .reservation-header {
     position: absolute;
-    bottom: 13em;
+    bottom: 22em;
     left: 33em;
     color: #fff; }
     #reservation .reservation-header h1 {
@@ -165,7 +165,7 @@ header {
     background-color: #F2400B;
     position: absolute;
     left: 30em;
-    bottom: 70px;
+    bottom: 12em;
     padding-right: 2em;
     padding-left: 2em; }
 
@@ -206,5 +206,7 @@ header {
       margin-bottom: 1em; }
     #restaurant-footer .ul-footer-custom span {
       padding-left: 5em; }
+  #restaurant-footer iframe {
+    margin-top: 19px; }
 
 /*# sourceMappingURL=app.css.map */
